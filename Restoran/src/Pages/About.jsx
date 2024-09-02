@@ -7,8 +7,9 @@ function About() {
             <div className='aboutTop' style={{ backgroundImage: `url(${BannerImage})` }}></div>
             <div className='aboutBottom'>
                 <h1>About Us</h1>
-                <p>Keban Et 1976 yılında Keban Kasap olarak kuruldu. Butik bir kasap olmasına rağmen müşterilerine sunmuş olduğu ürünlerin katkısız ve lezzetli olmasından dolayı kısa sürede Et Ustası ünvanının aldı. 41 yıldır iş hacmi, ürün yelpazesi, müşteriler, çalışanlar kısacası bir çok şey değişti. Ancak değişmeyen tek şey Keban Et in sunduğu et ve et ürünlerinin lezzeti idi.
-                    Keban Kasap müşterilerinden aldığı talepler ile kalitesini hiç bozmadan büyüyebilen nadir et üreticilerindendir. İlerleyen yıllarda gücünü müşterilerinin sadakat ve övgülerinden alarak üretim bandını genişletti.
+                <p>Keban Et was founded in 1976 as Keban Kasap. Despite being a boutique butcher, it quickly earned the title of Meat Master due to the unimproved, additive-free and delicious meat it offered. In 41 years, the business volume, product range, customers, employees, in short, many things have changed. However, the only thing that has not changed is the meat and meat depth flavor offered by Keban Et. Keban Kasap is one of the rare meat options that can grow completely without spoiling with the demands from the devices. It expanded its production line by taking the loyalty and praise of the power in the following years.
+                    <br />
+                    <br />
                 </p>
             </div>
         </div>
