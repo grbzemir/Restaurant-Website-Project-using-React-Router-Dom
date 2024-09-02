@@ -25,7 +25,7 @@ function Footer() {
                     <GitHubIcon style={{ color: "white", fontSize: "30px" }} />
                 </a>
             </div>
-            <p style={{ color: "white", marginTop: "10px" }}>© 2024 Your Website. All Rights Reserved.</p>
+            <p style={{ color: "white", marginTop: "10px" }}>© 2024 Emircan Gürbüz. Full Stack Developer.</p>
         </div>
     );
 }

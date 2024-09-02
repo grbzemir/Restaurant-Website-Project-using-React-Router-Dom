@@ -126,7 +126,7 @@ img {
   left: 0;
   width: 10%;
   height: 100%;
-  background-color: white;
+  background-color: rgba(16, 122, 139, 0.5);
   transition: .3s;
   z-index: -1;
 }
@@ -179,4 +179,178 @@ img {
 }
 
 
-.footer {}
+.footer {
+  width: 100%;
+  height: 130px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.footer p {
+  columns: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+/*menu Baslangıç*/
+
+.menu {
+  width: 100%;
+  text-align: center;
+  background-color: #2CB978;
+  padding: 20px;
+  height: 130vh;
+}
+
+.menuTitle {
+  font-size: 35px;
+}
+
+.menuList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.menuItem {
+  background-color: #83E85A;
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.menuItem:hover {
+  transform: scale(1.02);
+  opacity: .9;
+}
+
+.menuItem img {
+  width: 340px;
+  height: 250px;
+}
+
+.menuItem h3 {
+  font-size: 25px;
+  color: black;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+.menuItem p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+@media (max-width:600px) {
+  .menu {
+    padding: 5px;
+  }
+
+  .menuItem {
+    width: 180px;
+    height: 180px;
+  }
+
+  .menuItem img {
+    width: 160px;
+    height: 80px;
+  }
+}
+
+@media (max-width:400px) {
+  .menu {
+    padding: 2px;
+  }
+
+  .menuItem {
+    width: 150px;
+    height: 150px;
+  }
+
+  .menuItem img {
+    width: 130px;
+    height: 50px;
+  }
+}
+
+/* menü bitiş */
+
+
+/*about*/
+
+.about {
+  width: 100%;
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(34, 32, 32);
+}
+
+.aboutTop {
+  width: 100%;
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutBottom {
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.aboutBottom p {
+  margin-top: 20px;
+  width: 500px;
+}
+
+.about .aboutBottom h1 {
+  font-weight: 400;
+  font-size: 70px;
+  color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+}
+
+@media (max-width:600px) {
+  .aboutBottom p {
+    margin-top: 20px;
+    width: 300px;
+  }
+
+}
+
+/*about bitiş*/
+
+/*contact*/
+
+.contact {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+
+}
+
+.contact .leftSide {
+  height: 100%;
+  flex: 50%;
+  background-position: center;
+}
